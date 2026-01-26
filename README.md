@@ -196,3 +196,5 @@ It is not financial advice and does not guarantee detection of all malicious act
 
 If you are an exchange, wallet provider, market maker, or security team, reach out for integration details.
 
+Contact: gauss8008@gmail.com
+X: @LeviathanVcz
