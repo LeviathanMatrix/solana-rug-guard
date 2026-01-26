@@ -14,7 +14,7 @@ That makes entity-level risk intelligence feasible at launch-time and at first-t
 
 ```text
                  ┌───────────────────────────────────────────┐
-[QuickNode/Helius] → (Webhook Listener :8787) → Event Parser  │
+                       (Webhook Listener ) → Event Parser    │
                  └──────────────────────┬────────────────────┘
                                         │ mint / lp / swap
                                         v
