@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "signal_type": "final",
+  "token": "So11111111111111111111111111111111111111112",
+  "risk_score": 72.4,
+  "grade": "C",
+  "created_at": 1769412600,
+  "price_at_signal": 0.0123,
+  "quality": {
+    "evidence_strength": 30,
+    "data_completeness": 55,
+    "confidence": "medium",
+    "missing": [],
+    "flags": []
+  },
+  "action": "watch",
+  "action_allowed": true,
+  "action_reason": "policy",
+  "refs": [
+    {
+      "type": "mint",
+      "address": "So11111111111111111111111111111111111111112",
+      "url": "https://solscan.io/token/So11111111111111111111111111111111111111112"
+    }
+  ],
+  "dimension_scores": {
+    "dev_control": 20.0,
+    "permission": 10.0,
+    "liquidity": 15.0,
+    "early_wallet": 7.0,
+    "entity": 12.0
+  },
+  "reasons": {
+    "hard_evidence_score": 30,
+    "hard_evidence_count": 1,
+    "hard_evidence": "mint authority active",
+    "dev_control": "Authorities not renounced; control risk present.",
+    "liquidity": "LP safety signals require monitoring.",
+    "entity": "Entity has prior high-risk history."
+  },
+  "funding": {
+    "fee_payer": "ExampleFeePayer111111111111111111111111111111111",
+    "direct_funder": "ExampleFunder111111111111111111111111111111111",
+    "trace": [
+      {
+        "from": "ExampleFunder111111111111111111111111111111111",
+        "to": "ExampleFeePayer111111111111111111111111111111111",
+        "signature": "ExampleSignature111111111111111111111111111111",
+        "slot": 0
+      }
+    ]
+  },
+  "entity": {
+    "entity_id": 12,
+    "project_count": 6,
+    "high_risk_count": 2,
+    "rug_count": 1,
+    "authority_active_count": 3,
+    "lp_withdrawable_count": 1,
+    "early_cluster_count": 2,
+    "avg_risk_score": 58.2,
+    "link_count": 4,
+    "link_high_risk_count": 1,
+    "network_risk": 0.35,
+    "tags": [
+      "project_owner",
+      "capital_source",
+      "lp_structure_reuse"
+    ],
+    "recent": {
+      "window": 6,
+      "project_count": 6,
+      "high_risk_count": 2,
+      "rug_count": 1,
+      "authority_active_count": 3,
+      "lp_withdrawable_count": 1,
+      "early_cluster_count": 2
+    }
+  },
+  "source": "solana_rug_guard"
+}
+
