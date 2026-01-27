@@ -7,7 +7,8 @@ Solana Rug Guard is an on-chain risk intelligence system focused on early-stage 
 Rather than relying on social signals or price movement, it builds an evolving entity graph and evaluates structural patterns behind token launches.
 
 This repository is a public-facing system overview for enterprise deployment and integration discussions.
-![Uploading 1.jpg…]()
+<img width="1536" height="1024" alt="1" src="https://github.com/user-attachments/assets/0ec8c16a-4c75-4987-b86a-d38cad78d117" />
+
 
  Why Solana
 
