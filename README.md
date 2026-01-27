@@ -1,9 +1,13 @@
 Solana Rug Guard (Entity-Level Risk Intelligence)
 
+
+
+
 Solana Rug Guard is an on-chain risk intelligence system focused on early-stage token risk detection and entity-level wallet attribution.  
 Rather than relying on social signals or price movement, it builds an evolving entity graph and evaluates structural patterns behind token launches.
 
 This repository is a public-facing system overview for enterprise deployment and integration discussions.
+![Uploading 1.jpg…]()
 
  Why Solana
 
